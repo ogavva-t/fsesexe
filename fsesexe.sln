@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsesexe", "fsesexe\fsesexe.csproj", "{D7805F28-93EE-45AA-9C8F-037A25DAE18B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fsesexe", "fsesexe\fsesexe.csproj", "{D7805F28-93EE-45AA-9C8F-037A25DAE18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsesexe.Infrastructure", "fsesexe.Infrastructure\fsesexe.Infrastructure.csproj", "{BEB81A95-2824-4BD3-B2CF-7A14F21B6866}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D7805F28-93EE-45AA-9C8F-037A25DAE18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7805F28-93EE-45AA-9C8F-037A25DAE18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7805F28-93EE-45AA-9C8F-037A25DAE18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB81A95-2824-4BD3-B2CF-7A14F21B6866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB81A95-2824-4BD3-B2CF-7A14F21B6866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB81A95-2824-4BD3-B2CF-7A14F21B6866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB81A95-2824-4BD3-B2CF-7A14F21B6866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 using Mono.Options;
 
-using NEventSocket;
+using fsesexe.Infrastructure.EventSocket;
 
 namespace fsesexe
 {
@@ -72,11 +72,7 @@ namespace fsesexe
                 string message = "Connect {0} ...";
                 Console.WriteLine(message, ipaddress);
 
-                using (var socket = await InboundSocket.Connect(ipaddress, port, password))
-                {
-                    var apiResponse = await socket.SendApi(command);
-                    Console.WriteLine(apiResponse.BodyText);
-                }
+                await EventSocketHandler.SendApi(ipaddress, port, password, command);
             }
         }
     }
