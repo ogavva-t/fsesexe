@@ -69,9 +69,6 @@ namespace fsesexe
                     password = elements[2];
                 }
 
-                string message = "Connect {0} ...";
-                Console.WriteLine(message, ipaddress);
-
                 await EventSocketHandler.SendApi(ipaddress, port, password, command);
             }
         }
